@@ -1,0 +1,82 @@
+.weather-container {
+  max-width: 360px;
+  margin: 1em auto;
+  padding: 0.5em;
+  border: 2px solid #333333;
+  border-radius: 16px;
+}
+
+header h1 {
+  text-align: center;
+  color: #222222;
+  font-size: 2.5rem;
+}
+
+section input {
+  padding: 0.5em;
+  border: 1.5px solid #666666;
+  border-radius: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: #333333;
+  margin: 0;
+  border: 1.5px solid #333333;
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  transition: all 400ms ease 0s;
+}
+button:hover {
+  color: white;
+  background-color: rgb(69, 67, 67);
+}
+
+.ip-get-data {
+  padding: 1em 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(52, 136, 52);
+}
+
+.error {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(160, 56, 56);
+}
+
+.response-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.response-data h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.more-data {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.more-data p {
+  color: #666666;
+  font-size: 1rem;
+}

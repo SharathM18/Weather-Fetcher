@@ -20,7 +20,7 @@ const App = () => {
 
       try {
         const response = await fetch(
-          `http://api.weatherapi.com/v1/current.json?key=3775fe69ee0a4d9ebbf163205241704&q=${cityName}&aqi=yes`
+          `https://api.weatherapi.com/v1/current.json?key=3775fe69ee0a4d9ebbf163205241704&q=${cityName}&aqi=yes`
         );
 
         if (!response.ok) {
